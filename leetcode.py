@@ -699,7 +699,7 @@ from collections import Counter
 
 # ================================================
 
-from itertools import combinations
+from itertools import combinations, count
 
 # 812
 
@@ -1565,6 +1565,15 @@ from collections import Counter
 #
 # for i in range(len(s)):
 #     if
+
+
+"""✅ https://leetcode.com/problems/kth-distinct-string-in-an-array/description/?envType=problem-list-v2&envId=string"""
+
+arr = ["d","b","c","b","c","a"]
+k = 2
+smth = [i for i in arr if arr.count(i) == 1]
+print("")if len(smth) < k else print(smth[k-1])
+
 
 
 
