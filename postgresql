@@ -1,0 +1,40 @@
+✅ https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50
+
+select product_id from Products where low_fats  = 'Y' and recyclable = 'Y';
+
+
+✅ https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50
+
+select name from Customer where referee_id != 2 or referee_id is null;
+
+
+✅ https://leetcode.com/problems/big-countries/description/?envType=study-plan-v2&envId=top-sql-50
+
+select name, population, area from World where area >= 3000000 or population >= 25000000;
+
+
+✅ https://leetcode.com/problems/article-views-i/description/?envType=study-plan-v2&envId=top-sql-50
+
+select author_id as id from Views group by author_id, viewer_id having author_id = viewer_id order by id;
+
+
+✅ https://leetcode.com/problems/invalid-tweets/?envType=study-plan-v2&envId=top-sql-50
+
+select tweet_id from Tweets where length(content) > 15;
+
+
+✅ https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/?envType=study-plan-v2&envId=top-sql-50
+
+select unique_id, name from Employees left join EmployeeUNI using(id);
+
+
+✅ https://leetcode.com/problems/product-sales-analysis-i/submissions/1616370573/?envType=study-plan-v2&envId=top-sql-50
+
+select product_name, year, price from Sales join Product using(product_id)
+
+
+✅ https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/?envType=study-plan-v2&envId=top-sql-50
+
+select V.customer_id, count(V.customer_id) as count_no_trans from Visits V left join Transactions T using(visit_id) group by T.transaction_id, V.customer_id having T.transaction_id is null
+
+
