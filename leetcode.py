@@ -9,7 +9,7 @@
 #     return result
 
 
-# https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""✅ https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
 
 
 # def removeAnagrams(words: list[str]) -> list[str]:
@@ -30,7 +30,7 @@
 
 
 
-# https://leetcode.com/problems/valid-palindrome-ii/description/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""✅ https://leetcode.com/problems/valid-palindrome-ii/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
 
 # def validPalindrome(self, s: str) -> bool:
 #     if s == s[::-1]:
@@ -49,10 +49,8 @@
 #     return True
 
 
-# ============================ homework ==========================
 
-
-# https://leetcode.com/problems/determine-color-of-a-chessboard-square/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""✅ https://leetcode.com/problems/determine-color-of-a-chessboard-square/?envType=problem-list-v2&envId=string&difficulty=EASY"""
 
 # def squareIsWhite(self, coordinates: str) -> bool:
 #     column = ord(coordinates[0]) - ord('a') + 1
@@ -64,23 +62,20 @@
 #         return True
 
 
-# https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""✅ https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string&difficulty=EASY"""
 
-
-# def isBalanced(num: str) -> bool:
+# num = "1234"
+# even = 0
+# odd = 0
+# for i in range(len(num)):
+#     if i % 2 == 0:
+#         even += int(num[i])
+#     else:
+#         odd += int(num[i])
 #
-#     even = 0
-#     odd = 0
-#     for i in range(1,len(num)):
-#         if i % 2 == 0:
-#             even += i
-#         else:
-#             odd += i
-#         if even == odd:
-#             return True
-#         else:
-#             return False
-# print(isBalanced("24123"))
+# print(even == odd)
+
+
 
 
 # word = "zjpc"
@@ -254,7 +249,7 @@
 #     else:
 #         result += i
 # print(result)
-from string import digits
+
 
 # s = "abca"
 #
@@ -1569,10 +1564,60 @@ from collections import Counter
 
 """✅ https://leetcode.com/problems/kth-distinct-string-in-an-array/description/?envType=problem-list-v2&envId=string"""
 
-arr = ["d","b","c","b","c","a"]
-k = 2
-smth = [i for i in arr if arr.count(i) == 1]
-print("")if len(smth) < k else print(smth[k-1])
+# arr = ["d","b","c","b","c","a"]
+# k = 2
+# smth = [i for i in arr if arr.count(i) == 1]
+# print("")if len(smth) < k else print(smth[k-1])
+
+
+"""✅ https://leetcode.com/problems/unique-morse-code-words/description/?envType=problem-list-v2&envId=string"""
+
+# words = ["gin","zen","gig","msg"]
+# tmp = ""
+# lst = []
+# dct = {'a':".-", 'b':"-...", 'c':"-.-.", 'd':"-..", 'e':".",
+#            'f':"..-.", 'g':"--.", 'h':"....", 'i':"..", 'j':".---",
+#            'k':"-.-", 'l':".-..", 'm':"--", 'n':"-.", 'o':"---", 'p':".--.",
+#            'q':"--.-", 'r':".-.", 's':"...", 't':"-", 'u':"..-", 'v':"...-",
+#            'w':".--", 'x':"-..-", 'y':"-.--", 'z':"--.."}
+# for word in words:
+#     for letter in word:
+#         tmp += dct[letter]
+#     lst.append(tmp)
+#     tmp = ''
+#
+# print(len(set(lst)))
+
+"""✅ https://leetcode.com/problems/find-common-characters/description/?envType=problem-list-v2&envId=string"""
+
+# words = ["bekka","label","roller"]
+# result = []
+# if len(words) < 2:
+#     for word in words:
+#         for i in word:
+#             result.append(i)
+# else:
+#     word = set(words[0])
+#     for char in word: # a ,b e , l
+#         smth = min([word.count(char) for word in words])
+#         result += [char] * smth
+# print(result)
+
+
+"""https://leetcode.com/problems/maximum-number-of-balloons/description/"""
+
+
+# text = "nlaebolko"
+# print(min(text.count('b'),text.count('a',text.count('l')//2,text.count('o')//2,text.count('n'))))
+
+
+
+"""https://leetcode.com/problems/reverse-integer/description/"""
+
+
+# x = 123
+
+
 
 
 
