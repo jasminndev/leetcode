@@ -1,3 +1,5 @@
+"""✅ https://leetcode.com/problems/count-binary-substrings/description/"""
+
 # def count_binary(s:str) -> int:
 #
 #     group = s.replace("01", "0,1").replace("10", "1,0").split(",")
@@ -11,7 +13,6 @@
 
 """✅ https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
 
-
 # def removeAnagrams(words: list[str]) -> list[str]:
 #     result = [words[0]]
 #     for i in range(1,len(words)):
@@ -22,8 +23,7 @@
 # print(removeAnagrams(words))
 
 
-# https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/?envType=problem-list-v2&envId=string&difficulty=EASY
-
+"""✅ https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
 
 # def removeTrailingZeros(self, num: str) -> str:
 #     return num.rstrip("0")
@@ -76,19 +76,7 @@
 # print(even == odd)
 
 
-
-
-# word = "zjpc"
-# d = {'a': 0, 'b': 1, 'c': 2, 'd': 3, 'e': 4, 'f': 5, 'g': 6, 'h': 7, 'i': 8, 'j': 9, 'k': 10, 'l': 11, 'm': 12, 'n': 13, 'o': 14, 'p': 15, 'q': 16, 'r': 17, 's': 18, 't': 19, 'u': 20, 'v': 21, 'w': 22, 'x': 23, 'y': 24, 'z': 25}
-# pointer = "a"
-# result = 0
-# for char in word:
-#     distance1 = abs(d[pointer] - d[char])
-#     distance2 = 26-distance1
-#     result += min(distance1 , distance2) + 1
-#     pointer = char
-# print(result)
-
+"""✅ https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/"""
 
 # word = "zjpc"
 # pointer = "a"
@@ -101,7 +89,7 @@
 # print(result)
 
 
-# ========================================================
+"""✅ https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/"""
 
 # s = "abcdefghij"
 # k = 3
@@ -114,7 +102,22 @@
 # print(result)
 
 
-# ==================================================
+"""✅ https://leetcode.com/problems/shortest-completing-word/description/"""
+
+# licensePlate = "1s3 PSt"
+# words = ["step","steps","stripe","stepple"]
+# license = [char.lower() for char in licensePlate if char.isalpha()]
+# count_lp = Counter(license)
+# for word in words:
+#     count_word = Counter(word.lower())
+#     for tmp in license:
+#         if all(count_word[tmp] >= count_lp[tmp]):
+#             print()
+#
+# print(license)
+
+
+# ============================================================
 
 # s = "acb347g"
 # stack = []
@@ -124,28 +127,6 @@
 #     else:
 #         stack.append(i)
 # print("".join(stack))
-
-
-# ============================================================
-
-
-# licensePlate = "1s3 PSt"
-# words = ["step","steps","stripe","stepple"]
-# license = ""
-# for i in licensePlate:
-#     if i.isalpha():
-#         license += i
-# license = licensePlate.lower()
-#
-# def counter(txt:str):
-#     d = {}.fromkeys(txt, 0)
-#     for i in txt:
-#         d[i] += 1
-#
-#     return d
-# license = counter(license)
-# print(license)
-
 
 
 # =========================================================
@@ -639,7 +620,6 @@
 
 
 # 2605
-from collections import Counter
 # nums1 = [4,1,3]
 # nums2 = [5,7]
 # def minNumber(nums1: list[int], nums2: list[int]) -> int:
@@ -694,7 +674,6 @@ from collections import Counter
 
 # ================================================
 
-from itertools import combinations, count
 
 # 812
 
@@ -1058,7 +1037,6 @@ for i in words:
     if i.isdigit():
         result.append(int(i))
 print(result)"""
-from collections import Counter
 
 # ====================================================
 
@@ -1604,21 +1582,60 @@ from collections import Counter
 # print(result)
 
 
-"""https://leetcode.com/problems/maximum-number-of-balloons/description/"""
+"""✅ https://leetcode.com/problems/maximum-number-of-balloons/description/"""
 
-
-# text = "nlaebolko"
-# print(min(text.count('b'),text.count('a',text.count('l')//2,text.count('o')//2,text.count('n'))))
-
+# text = "nlaebolkoballoondfgwr"
+# print(min(text.count('b'),text.count('a'),text.count('l')//2,text.count('o')//2,text.count('n')))
 
 
 """https://leetcode.com/problems/reverse-integer/description/"""
 
-
 # x = 123
 
 
+"""https://leetcode.com/problems/reverse-linked-list/description/"""
 
+# head = [1,2,3,4,5]
+
+
+"""✅ https://leetcode.com/problems/island-perimeter/description/"""
+
+# grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
+# a = len(grid)
+# b = len(grid[0])
+# res = 0
+# for i in range(a):
+#     for j in range(b):
+#         if grid[i][j] == 1:
+#             if (j > 0 and grid[i][j-1] == 0) or j == 0:
+#                 res += 1
+#             if (i > 0 and grid[i-1][j] == 0) or i == 0:
+#                 res += 1
+#             if (j < b - 1 and grid[i][j-1] == 0) or j == b - 1:
+#                 res += 1
+#             if (i < a - 1 and grid[i-1][j] == 0) or i == a - 1:
+#                 res += 1
+#
+# print(res)
+
+
+"""✅ https://leetcode.com/problems/relative-ranks/description/"""
+
+# score = [10,3,8,9,4]
+# temp = sorted(score, reverse=True)
+# lst = []
+# for i in score:
+#     rank = temp.index(i) + 1
+#     if rank == 1:
+#         lst.append("Gold Medal")
+#     elif rank == 2:
+#         lst.append("Silver Medal")
+#     elif rank == 3:
+#         lst.append("Bronze Medal")
+#     else:
+#         lst.append(str(rank))
+#
+# print(lst)
 
 
 
