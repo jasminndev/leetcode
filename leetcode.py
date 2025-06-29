@@ -1686,31 +1686,17 @@ print(result)"""
 
 
 """
-https://leetcode.com/problems/duplicate-zeros/description/
+✅ https://leetcode.com/problems/duplicate-zeros/description/
 """
 
-arr = [8,5,0,9,0,3,4,7]
-temp = arr.copy()
-cut = len(arr)
-i = 0
-while i <= len(temp)-1:
-    if temp[i] == 0:
-        arr.insert(i + 1, 0)
-        i += 1
-    i += 1
-
-print(arr[:cut])
-
-# arr = [1, 0, 2, 3, 0, 4, 5, 0]
+# arr = [8,5,0,9,0,3,4,7]
 # cut = len(arr)
-# temp = True
-# for i in range(len(arr)):
+# i = 0
+# while i <= cut-2:
 #     if arr[i] == 0:
-#         if temp:
-#             arr.insert(i, 0)
-#             temp = False
-#             continue
+#         arr.insert(i+1, 0)
+#         i += 2
 #     else:
-#         temp = True
-#
+#         i += 1
 # print(arr[:cut])
+
