@@ -1,4 +1,5 @@
 """✅ https://leetcode.com/problems/count-binary-substrings/description/"""
+import string
 
 # def count_binary(s:str) -> int:
 #
@@ -29,7 +30,6 @@
 #     return num.rstrip("0")
 
 
-
 """✅ https://leetcode.com/problems/valid-palindrome-ii/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
 
 # def validPalindrome(self, s: str) -> bool:
@@ -47,7 +47,6 @@
 #         i += 1
 #         j -= 1
 #     return True
-
 
 
 """✅ https://leetcode.com/problems/determine-color-of-a-chessboard-square/?envType=problem-list-v2&envId=string&difficulty=EASY"""
@@ -543,7 +542,6 @@
 # print(license)
 
 
-
 # =========================================================
 
 # nums = [3,2,1]
@@ -623,14 +621,14 @@
 # nums1 = [4,1,3]
 # nums2 = [5,7]
 # def minNumber(nums1: list[int], nums2: list[int]) -> int:
-    # smth = set(nums1) & set(nums2)
-    #
-    # if smth:
-    #     return min(smth)
-    # zxc = min(nums1), min(nums2)
-    # mini = min(zxc)
-    # maxi = max(zxc)
-    # return int(f"{mini}{maxi}")
+# smth = set(nums1) & set(nums2)
+#
+# if smth:
+#     return min(smth)
+# zxc = min(nums1), min(nums2)
+# mini = min(zxc)
+# maxi = max(zxc)
+# return int(f"{mini}{maxi}")
 
 # ======================================
 
@@ -678,17 +676,17 @@
 # 812
 
 # def largestTriangleArea(points: list[list[int]]) -> float:
-    # def area_triangle(point1, point2, point3):
-    #     x1, y1 = point1
-    #     x2, y2 = point2
-    #     x3, y3 = point3
-    #     result = 1 / 2 * abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2))
-    #     return result
-    #
-    # maxi = 0
-    # for points in combinations(points, 3):
-    #     maxi = max(area_triangle(*points), maxi)
-    # return maxi
+# def area_triangle(point1, point2, point3):
+#     x1, y1 = point1
+#     x2, y2 = point2
+#     x3, y3 = point3
+#     result = 1 / 2 * abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2))
+#     return result
+#
+# maxi = 0
+# for points in combinations(points, 3):
+#     maxi = max(area_triangle(*points), maxi)
+# return maxi
 
 # print(largestTriangleArea(points = [[0,0],[0,1],[1,0],[0,2],[2,0]]))
 # ===============================================================
@@ -1227,7 +1225,6 @@ print(result)"""
 # print(result)
 
 
-
 # ===================================================================================
 
 # 1678
@@ -1638,5 +1635,82 @@ print(result)"""
 # print(lst)
 
 
+"""
+✅ https://leetcode.com/problems/longest-common-prefix/
+"""
+
+# strs = ["flower", "flow", "flight"]
+# tmp = ''
+# result = ''
+# word = min(strs, key=len)
+# for i in range(len(word)):
+#     for str in strs:
+#         if str[i] == word[i]:
+#             tmp += str[i]
+#     if len(tmp) < len(strs):
+#         break
+#     result += tmp[0]
+#     tmp = ''
+# print(result)
 
 
+"""
+✅ https://leetcode.com/problems/move-zeroes/
+"""
+
+# nums = [0,1,0,3,12]
+# for i in nums:
+#     if i == 0:
+#         nums.append(0)
+#         nums.remove(0)
+# print(nums)
+
+"""
+✅ https://leetcode.com/problems/excel-sheet-column-number/description/
+"""
+
+# letters = string.ascii_uppercase
+# dct = {}
+# for index, value in enumerate(letters):
+#     dct[value] = index + 1
+#
+# res = 0
+# columnTitle = "A"
+# i = len(columnTitle)-1
+# for column in columnTitle:
+#     temp = dct[column]
+#     res += temp * (26 ** i)
+#     i -= 1
+#
+# print(res)
+
+
+"""
+https://leetcode.com/problems/duplicate-zeros/description/
+"""
+
+arr = [8,5,0,9,0,3,4,7]
+temp = arr.copy()
+cut = len(arr)
+i = 0
+while i <= len(temp)-1:
+    if temp[i] == 0:
+        arr.insert(i + 1, 0)
+        i += 1
+    i += 1
+
+print(arr[:cut])
+
+# arr = [1, 0, 2, 3, 0, 4, 5, 0]
+# cut = len(arr)
+# temp = True
+# for i in range(len(arr)):
+#     if arr[i] == 0:
+#         if temp:
+#             arr.insert(i, 0)
+#             temp = False
+#             continue
+#     else:
+#         temp = True
+#
+# print(arr[:cut])

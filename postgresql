@@ -38,3 +38,6 @@ select product_name, year, price from Sales join Product using(product_id)
 select V.customer_id, count(V.customer_id) as count_no_trans from Visits V left join Transactions T using(visit_id) group by T.transaction_id, V.customer_id having T.transaction_id is null
 
 
+✅ https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/description/?envType=study-plan-v2&envId=top-sql-50
+
+select teacher_id, count(distinct subject_id) as cnt from Teacher group by teacher_id
