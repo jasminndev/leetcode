@@ -1,5 +1,6 @@
 """✅ https://leetcode.com/problems/count-binary-substrings/description/"""
 import string
+from collections import Counter
 
 # def count_binary(s:str) -> int:
 #
@@ -1700,3 +1701,51 @@ print(result)"""
 #         i += 1
 # print(arr[:cut])
 
+
+"""
+✅ https://leetcode.com/problems/find-the-town-judge/description/
+"""
+
+# n = 4
+# trust = [[1,3],[1,4],[2,3],[2,4],[4,3]]
+# if n == 1:
+#     print(n)
+# elif n == 2 and len(trust) == 0:
+#     print(-1)
+# else:
+#     first = [t[0] for t in trust]
+#     second = [t[1] for t in trust]
+#
+#     temp = Counter(second)
+#     max_voice = max(temp, key=temp.get)
+#     num_of_voices = temp.get(max_voice)
+#
+#     if num_of_voices == n-1 and max_voice not in first:
+#         print(max_voice)
+#     else:
+#         print(-1)
+
+
+"""
+✅ https://leetcode.com/problems/score-of-a-string/description/
+"""
+
+s = "hello"
+print(sum(abs(ord(s[char]) - ord(s[char + 1])) for char in range(len(s) - 1)))
+
+"""
+https://leetcode.com/problems/add-digits/
+"""
+
+# num = 38
+
+
+"""
+https://leetcode.com/problems/find-the-original-typed-string-i/
+"""
+
+# word = "abbcccc"
+# count = Counter(word)
+#
+#
+# print(count)
