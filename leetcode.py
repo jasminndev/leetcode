@@ -1764,6 +1764,16 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/convert-the-temperature/description/
+"""
+# Kelvin = Celsius + 273.15
+# Fahrenheit = Celsius * 1.80 + 32.00
+
+# celsius = 36.50
+# res = [celsius + 273.15, celsius * 1.80 + 32.00]
+# print(res)
+
+"""
 https://leetcode.com/problems/add-digits/
 """
 
