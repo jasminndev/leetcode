@@ -1,6 +1,5 @@
 """✅ https://leetcode.com/problems/count-binary-substrings/description/"""
-import string
-from collections import Counter
+from operator import index
 
 # def count_binary(s:str) -> int:
 #
@@ -1730,8 +1729,39 @@ print(result)"""
 ✅ https://leetcode.com/problems/score-of-a-string/description/
 """
 
-s = "hello"
-print(sum(abs(ord(s[char]) - ord(s[char + 1])) for char in range(len(s) - 1)))
+# s = "hello"
+# print(sum(abs(ord(s[char]) - ord(s[char + 1])) for char in range(len(s) - 1)))
+
+
+"""
+✅ https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/description/
+"""
+
+# n = 10
+# m = 3
+# lst = list(range(1, n + 1))
+# lst1 = [i for i in lst if i % m == 0]
+# lst2 = [i for i in lst if i % m != 0]
+# print(sum(lst2) - sum(lst1))
+
+"""
+✅ https://leetcode.com/problems/find-the-maximum-achievable-number/description/
+"""
+
+# num = 4
+# t = 1
+# print(num + 2 * t)
+
+
+"""
+✅ https://leetcode.com/problems/find-words-containing-character/description/
+"""
+
+# words = ["abc","bcd","aaaa","cbc"]
+# x = "a"
+# temp = [i for i, word in enumerate(words) if x in word]
+# print(temp)
+
 
 """
 https://leetcode.com/problems/add-digits/
