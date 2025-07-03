@@ -1,5 +1,4 @@
 """✅ https://leetcode.com/problems/count-binary-substrings/description/"""
-from operator import index
 
 # def count_binary(s:str) -> int:
 #
@@ -1772,6 +1771,33 @@ print(result)"""
 # celsius = 36.50
 # res = [celsius + 273.15, celsius * 1.80 + 32.00]
 # print(res)
+
+
+"""
+✅ https://leetcode.com/problems/power-of-two/
+"""
+
+# 2**4 = 16
+# m = 0
+# if m <= 0:
+#     print(False)
+# smth = int(math.log2(m))
+# if 2 ** smth == m:
+#     print(True)
+# else:
+#     print(False)
+
+
+"""
+https://leetcode.com/problems/partition-array-according-to-given-pivot/description/
+"""
+
+# nums = [9, 12, 5, 10, 14, 3, 10]
+# pivot = 10
+# lst1 = [i for i in nums if i > pivot]
+# lst2 = [i for i in nums if i < pivot]
+# lst3 = [i for i in nums if i == pivot]
+# print(lst2 + lst3 + lst1)
 
 """
 https://leetcode.com/problems/add-digits/
