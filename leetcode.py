@@ -1799,6 +1799,21 @@ print(result)"""
 # lst3 = [i for i in nums if i == pivot]
 # print(lst2 + lst3 + lst1)
 
+
+"""
+https://leetcode.com/problems/number-complement/
+"""
+
+num = 5
+binary = bin(num)[2:]
+temp1 = binary.replace('1', '0')
+temp2 = binary.replace('0', '1')
+
+print(temp1)
+print(temp2)
+
+
+
 """
 https://leetcode.com/problems/add-digits/
 """
