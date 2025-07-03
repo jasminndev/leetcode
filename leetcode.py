@@ -1789,7 +1789,7 @@ print(result)"""
 
 
 """
-https://leetcode.com/problems/partition-array-according-to-given-pivot/description/
+✅ https://leetcode.com/problems/partition-array-according-to-given-pivot/description/
 """
 
 # nums = [9, 12, 5, 10, 14, 3, 10]
