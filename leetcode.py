@@ -1801,16 +1801,46 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/transform-array-by-parity/description/
+"""
+
+# nums = [4,3,2,1]
+# res = []
+# for n in nums:
+#     if n % 2 == 0:
+#         res.append(0)
+#     else:
+#         res.append(1)
+# print(sorted(res))
+
+
+"""
+https://leetcode.com/problems/merge-nodes-in-between-zeros/description/
+"""
+
+head = [0,3,1,0,4,5,2,0]
+res = []
+count = 0
+temp = 0
+for i in range(len(head)-1):
+
+
+
+
+
+
+
+"""
 https://leetcode.com/problems/number-complement/
 """
 
-num = 5
-binary = bin(num)[2:]
-temp1 = binary.replace('1', '0')
-temp2 = binary.replace('0', '1')
-
-print(temp1)
-print(temp2)
+# num = 5
+# binary = bin(num)[2:]
+# temp1 = binary.replace('1', '0')
+# temp2 = binary.replace('0', '1')
+#
+# print(temp1)
+# print(temp2)
 
 
 
