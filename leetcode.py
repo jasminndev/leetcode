@@ -1,4 +1,6 @@
-"""✅ https://leetcode.com/problems/count-binary-substrings/description/"""
+"""
+✅ https://leetcode.com/problems/count-binary-substrings/description/
+"""
 
 # def count_binary(s:str) -> int:
 #
@@ -11,7 +13,9 @@
 #     return result
 
 
-"""✅ https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
+"""
+✅ https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/description/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""
 
 # def removeAnagrams(words: list[str]) -> list[str]:
 #     result = [words[0]]
@@ -23,13 +27,17 @@
 # print(removeAnagrams(words))
 
 
-"""✅ https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
+"""
+✅ https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""
 
 # def removeTrailingZeros(self, num: str) -> str:
 #     return num.rstrip("0")
 
 
-"""✅ https://leetcode.com/problems/valid-palindrome-ii/description/?envType=problem-list-v2&envId=string&difficulty=EASY"""
+"""
+✅ https://leetcode.com/problems/valid-palindrome-ii/description/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""
 
 # def validPalindrome(self, s: str) -> bool:
 #     if s == s[::-1]:
@@ -48,7 +56,9 @@
 #     return True
 
 
-"""✅ https://leetcode.com/problems/determine-color-of-a-chessboard-square/?envType=problem-list-v2&envId=string&difficulty=EASY"""
+"""
+✅ https://leetcode.com/problems/determine-color-of-a-chessboard-square/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""
 
 # def squareIsWhite(self, coordinates: str) -> bool:
 #     column = ord(coordinates[0]) - ord('a') + 1
@@ -60,7 +70,9 @@
 #         return True
 
 
-"""✅ https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string&difficulty=EASY"""
+"""
+✅ https://leetcode.com/problems/check-balanced-string/?envType=problem-list-v2&envId=string&difficulty=EASY
+"""
 
 # num = "1234"
 # even = 0
@@ -74,7 +86,9 @@
 # print(even == odd)
 
 
-"""✅ https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/"""
+"""
+✅ https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter/description/
+"""
 
 # word = "zjpc"
 # pointer = "a"
@@ -87,7 +101,9 @@
 # print(result)
 
 
-"""✅ https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/"""
+"""
+✅ https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/description/
+"""
 
 # s = "abcdefghij"
 # k = 3
@@ -100,7 +116,9 @@
 # print(result)
 
 
-"""✅ https://leetcode.com/problems/shortest-completing-word/description/"""
+"""
+✅ https://leetcode.com/problems/shortest-completing-word/description/
+"""
 
 # licensePlate = "1s3 PSt"
 # words = ["step","steps","stripe","stepple"]
@@ -820,9 +838,9 @@
 # 2108
 
 # def firstPalindrome(words: list[str]) -> str:
-#     for i in words:
-#         if i == i[::-1]:
-#             return i
+#     for w in words:
+#         if w == w[::-1]:
+#             return w
 #     return ""
 # print(firstPalindrome(words = ["abc","car","ada","racecar","cool"]))
 
@@ -1016,7 +1034,7 @@
 
 # 2114
 
-# sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
+# sentences = ["alice and bob love leetcode", "I think so too", "this is a great thanks very much"]
 # result = 0
 # for char in sentences:
 #     smth = len(char.split())
