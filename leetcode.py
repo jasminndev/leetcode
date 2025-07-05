@@ -1,5 +1,4 @@
 """✅ https://leetcode.com/problems/count-binary-substrings/description/"""
-from math import sqrt
 
 # def count_binary(s:str) -> int:
 #
@@ -1734,6 +1733,7 @@ print(result)"""
 # lst2 = [i for i in lst if i % m != 0]
 # print(sum(lst2) - sum(lst1))
 
+
 """
 ✅ https://leetcode.com/problems/find-the-maximum-achievable-number/description/
 """
@@ -1841,19 +1841,44 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/jewels-and-stones/description/
+"""
+
+# jewels = "aA"
+# stones = "aAAbbbb"
+# set_jewels = set(jewels)
+# print(sum(s in set_jewels for s in stones))
+
+
+"""
+✅ https://leetcode.com/problems/shuffle-the-array/description/
+"""
+
+# nums = [2,5,1,3,4,7]
+# n = 3
+# res = []
+# x = nums[:n]
+# y = nums[n:]
+#
+# for i in range(n):
+#     res.append(x[i])
+#     res.append(y[i])
+#
+# print(res)
+
+
+"""
 https://leetcode.com/problems/last-stone-weight/description/
 """
 
-
-stones = [2,7,4,1,8,1]
-temp = sorted(stones, reverse=True)
-res = []
-for t in range(len(temp)-1):
-    if temp[t] != temp[t+1]:
-        res.append(temp[t+1] - temp[t])
-
-print(res)
-
+# stones = [2, 7, 4, 1, 8, 1]
+# temp = sorted(stones, reverse=True)
+# res = []
+# for t in range(len(temp) - 1):
+#     if temp[t] != temp[t + 1]:
+#         res.append(temp[t + 1] - temp[t])
+#
+# print(res)
 
 """
 https://leetcode.com/problems/merge-nodes-in-between-zeros/description/
