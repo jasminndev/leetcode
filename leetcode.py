@@ -1,4 +1,5 @@
 """✅ https://leetcode.com/problems/count-binary-substrings/description/"""
+from math import sqrt
 
 # def count_binary(s:str) -> int:
 #
@@ -1584,16 +1585,6 @@ print(result)"""
 # print(min(text.count('b'),text.count('a'),text.count('l')//2,text.count('o')//2,text.count('n')))
 
 
-"""https://leetcode.com/problems/reverse-integer/description/"""
-
-# x = 123
-
-
-"""https://leetcode.com/problems/reverse-linked-list/description/"""
-
-# head = [1,2,3,4,5]
-
-
 """✅ https://leetcode.com/problems/island-perimeter/description/"""
 
 # grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]
@@ -1815,19 +1806,62 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/
+"""
+
+# operations = ["X++","++X","--X","X--"]
+# res = 0
+# dct = {
+#     'X--' : -1,
+#     '--X' : -1,
+#     'X++' : 1,
+#     '++X' : 1,
+# }
+# for op in operations:
+#     res += dct[op]
+#
+# print(res)
+
+
+"""
+✅ https://leetcode.com/problems/divisor-game/description/
+"""
+
+# class Solution:
+#     def divisorGame(self, n: int) -> bool:
+#         return n % 2 == 0
+
+
+"""
+✅ https://leetcode.com/problems/sqrtx/description/
+"""
+
+# x = 4
+# print(int(sqrt(4)))
+
+
+"""
+https://leetcode.com/problems/last-stone-weight/description/
+"""
+
+
+stones = [2,7,4,1,8,1]
+temp = sorted(stones, reverse=True)
+res = []
+for t in range(len(temp)-1):
+    if temp[t] != temp[t+1]:
+        res.append(temp[t+1] - temp[t])
+
+print(res)
+
+
+"""
 https://leetcode.com/problems/merge-nodes-in-between-zeros/description/
 """
 
-head = [0,3,1,0,4,5,2,0]
-res = []
-count = 0
-temp = 0
-for i in range(len(head)-1):
-
-
-
-
-
+# head = [0,3,1,0,4,5,2,0]
+# res = []
+# pointer = 0
 
 
 """
@@ -1841,7 +1875,6 @@ https://leetcode.com/problems/number-complement/
 #
 # print(temp1)
 # print(temp2)
-
 
 
 """
@@ -1860,3 +1893,13 @@ https://leetcode.com/problems/find-the-original-typed-string-i/
 #
 #
 # print(count)
+
+
+"""https://leetcode.com/problems/reverse-integer/description/"""
+
+# x = 123
+
+
+"""https://leetcode.com/problems/reverse-linked-list/description/"""
+
+# head = [1,2,3,4,5]
