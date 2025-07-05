@@ -1868,6 +1868,35 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/description/
+"""
+
+# nums = [0,3,2,1,3,2]
+# res = []
+# count_nums = Counter(nums)
+# print(count_nums)
+# for n in count_nums.items():
+#     if n[1] == 2:
+#         res.append(n[0])
+#
+# print(sorted(res))
+
+"""
+✅ https://leetcode.com/problems/count-the-number-of-consistent-strings/description/
+"""
+
+# allowed = "ab"
+# words = ["ad", "bd", "aaab", "baa", "badab"]
+# count = 0
+# for word in range(len(words)):
+#     temp1 = set(words[word])
+#     temp2 = set(allowed)
+#     if temp1.issubset(temp2):
+#         count += 1
+# print(count)
+
+
+"""
 https://leetcode.com/problems/last-stone-weight/description/
 """
 
