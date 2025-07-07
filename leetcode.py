@@ -1915,6 +1915,19 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/smallest-even-multiple/description/
+"""
+
+# n = 5
+# print((n*2) // math.gcd(n, 2))
+
+
+"""
+
+"""
+
+
+"""
 https://leetcode.com/problems/last-stone-weight/description/
 """
 
