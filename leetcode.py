@@ -1923,6 +1923,21 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/
+"""
+
+# candies = [4,2,1,1,2]
+# extraCandies = 1
+# res = []
+# for candy in range(len(candies)):
+#     if (candies[candy] + extraCandies) >= max(candies):
+#         res.append(True)
+#     else:
+#         res.append(False)
+# print(res)
+
+
+"""
 
 """
 
