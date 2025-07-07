@@ -1,6 +1,7 @@
 """
 ✅ https://leetcode.com/problems/count-binary-substrings/description/
 """
+from collections import Counter
 
 # def count_binary(s:str) -> int:
 #
@@ -1938,8 +1939,26 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/add-two-integers/description/
+"""
+
+# num1 = -10
+# num2 = 4
+# print(num1+num2)
+
 
 """
+✅ https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/
+"""
+
+# s = "successes"
+# counter = Counter(s)
+# vowels = 'aeiou'
+# max_vowels = max([counter[i] for i in vowels], default=0)
+# max_consonants = max([counter[i] for i in counter if i not in vowels], default=0)
+# print(max_vowels+max_consonants)
+
+
 
 
 """
