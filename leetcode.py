@@ -1,7 +1,6 @@
 """
 ✅ https://leetcode.com/problems/count-binary-substrings/description/
 """
-from collections import Counter
 
 # def count_binary(s:str) -> int:
 #
@@ -1957,6 +1956,19 @@ print(result)"""
 # max_vowels = max([counter[i] for i in vowels], default=0)
 # max_consonants = max([counter[i] for i in counter if i not in vowels], default=0)
 # print(max_vowels+max_consonants)
+
+
+"""
+✅ https://leetcode.com/problems/number-of-employees-who-met-the-target/description/
+"""
+
+# hours = [5, 1, 4, 2, 2]
+# target = 6
+# print(len([hour for hour in hours if hour >= target]))
+
+"""
+https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/
+"""
 
 
 
