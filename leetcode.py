@@ -1,6 +1,7 @@
 """
 ✅ https://leetcode.com/problems/count-binary-substrings/description/
 """
+import string
 
 # def count_binary(s:str) -> int:
 #
@@ -1967,8 +1968,30 @@ print(result)"""
 # print(len([hour for hour in hours if hour >= target]))
 
 """
-https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/
+✅ https://leetcode.com/problems/reverse-degree-of-a-string/description/
 """
+
+# s = "zaza"
+# letters = reversed(string.ascii_lowercase)
+# dct = {}
+# total = 0
+# for index, value in enumerate(letters):
+#     dct[value] = index + 1
+# for index, value in enumerate(s):
+#     total += dct.get(value) * (index + 1)
+#
+# print(total)
+
+
+"""
+https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
+"""
+
+nums = [8,1,2,2,3]
+lst = []
+
+for num in nums:
+
 
 
 
