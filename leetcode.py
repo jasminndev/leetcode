@@ -1,7 +1,6 @@
 """
 ✅ https://leetcode.com/problems/count-binary-substrings/description/
 """
-import string
 
 # def count_binary(s:str) -> int:
 #
@@ -1984,16 +1983,33 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/count-integers-with-even-digit-sum/description/
+"""
+
+# num = 30
+# count = 0
+# for n in range(1, num+1):
+#     if n < 9 and n % 2 == 0:
+#         count += 1
+#     elif n > 9:
+#         res = str(n)
+#         summ = 0
+#         for t in res:
+#             summ += int(t)
+#         if summ % 2 == 0 :
+#             count += 1
+#
+# print(count)
+
+
+"""
 https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
 """
 
-nums = [8,1,2,2,3]
-lst = []
+# nums = [8, 1, 2, 2, 3]
+# lst = []
 
-for num in nums:
-
-
-
+# for num in nums:
 
 
 """
@@ -2057,3 +2073,16 @@ https://leetcode.com/problems/find-the-original-typed-string-i/
 """https://leetcode.com/problems/reverse-linked-list/description/"""
 
 # head = [1,2,3,4,5]
+
+
+"""
+
+"""
+
+# words = ["mass","as","hero","superhero"]
+# temp = sorted(words, key=len)
+# res = []
+# for
+
+
+# print(res)
