@@ -2003,12 +2003,24 @@ print(result)"""
 
 
 """
-https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
+✅ https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/description/
 """
 
 # nums = [8, 1, 2, 2, 3]
-# lst = []
+# lst = [sorted(nums).index(i) for i in nums]
+# print(lst)
 
+
+"""
+
+"""
+
+"""
+https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/
+"""
+
+# nums = [3,9,7]
+# k = 5
 # for num in nums:
 
 
