@@ -2012,89 +2012,28 @@ print(result)"""
 
 
 """
-
+✅ https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/
 """
 
-"""
-https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/
-"""
-
-# nums = [3,9,7]
+# nums = [3, 9, 7]
 # k = 5
-# for num in nums:
+# print(sum(nums) % k)
 
 
 """
-https://leetcode.com/problems/last-stone-weight/description/
+https://leetcode.com/problems/running-sum-of-1d-array/description/
 """
 
-# stones = [2, 7, 4, 1, 8, 1]
-# temp = sorted(stones, reverse=True)
-# res = []
-# for t in range(len(temp) - 1):
-#     if temp[t] != temp[t + 1]:
-#         res.append(temp[t + 1] - temp[t])
+# nums = [1, 2, 3, 4]
+# lst = []
+# for num in range(len(nums)):
+#     lst.append(sum(nums[:num + 1]))
 #
-# print(res)
+# print(lst)
 
-"""
-https://leetcode.com/problems/merge-nodes-in-between-zeros/description/
-"""
-
-# head = [0,3,1,0,4,5,2,0]
-# res = []
-# pointer = 0
-
-
-"""
-https://leetcode.com/problems/number-complement/
-"""
-
-# num = 5
-# binary = bin(num)[2:]
-# temp1 = binary.replace('1', '0')
-# temp2 = binary.replace('0', '1')
-#
-# print(temp1)
-# print(temp2)
-
-
-"""
-https://leetcode.com/problems/add-digits/
-"""
-
-# num = 38
-
-
-"""
-https://leetcode.com/problems/find-the-original-typed-string-i/
-"""
-
-# word = "abbcccc"
-# count = Counter(word)
-#
-#
-# print(count)
-
-
-"""https://leetcode.com/problems/reverse-integer/description/"""
-
-# x = 123
-
-
-"""https://leetcode.com/problems/reverse-linked-list/description/"""
-
-# head = [1,2,3,4,5]
+# print([sum(nums[:num + 1]) for num in range(len(nums))])
 
 
 """
 
 """
-
-# words = ["mass","as","hero","superhero"]
-# temp = sorted(words, key=len)
-# res = []
-# for
-
-
-# print(res)
