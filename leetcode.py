@@ -2021,7 +2021,7 @@ print(result)"""
 
 
 """
-https://leetcode.com/problems/running-sum-of-1d-array/description/
+✅ https://leetcode.com/problems/running-sum-of-1d-array/description/
 """
 
 # nums = [1, 2, 3, 4]
