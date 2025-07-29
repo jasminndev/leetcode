@@ -2035,5 +2035,42 @@ print(result)"""
 
 
 """
+✅ https://leetcode.com/problems/separate-the-digits-in-an-array/
+"""
+
+# nums = [13,25,83,77]
+# res = []
+# for num in nums:
+#     if num > 9:
+#         for i in str(num):
+#             res.append(int(i))
+#     else:
+#         res.append(num)
+#
+# print(res)
+
 
 """
+https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/
+"""
+
+# nums = [1,15,6,3]
+# res = []
+# for num in nums:
+#     if num > 9:
+#         for i in str(num):
+#             res.append(int(i))
+#     else:
+#         res.append(num)
+#
+# print(abs(sum(nums)-sum(res)))
+
+
+# """
+# https://leetcode.com/problems/decode-the-message/description/
+# """
+#
+# key = "the quick brown fox jumps over the lazy dog"
+# message = "vkbs bs t suepuv"
+# temp = set(key.strip())
+# print(temp)
