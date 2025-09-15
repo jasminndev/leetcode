@@ -2066,11 +2066,13 @@ https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an
 # print(abs(sum(nums)-sum(res)))
 
 
-# """
-# https://leetcode.com/problems/decode-the-message/description/
-# """
-#
-# key = "the quick brown fox jumps over the lazy dog"
-# message = "vkbs bs t suepuv"
-# temp = set(key.strip())
-# print(temp)
+"""
+https://leetcode.com/problems/build-array-from-permutation/description/
+"""
+
+
+
+
+
+
+
