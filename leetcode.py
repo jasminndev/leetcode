@@ -2064,12 +2064,3 @@ https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an
 #         res.append(num)
 #
 # print(abs(sum(nums)-sum(res)))
-
-
-"""
-https://leetcode.com/problems/build-array-from-permutation/description/
-"""
-
-
-
-
