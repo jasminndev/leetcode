@@ -2064,3 +2064,56 @@ https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an
 #         res.append(num)
 #
 # print(abs(sum(nums)-sum(res)))
+
+
+"""
+https://leetcode.com/problems/find-closest-person/description/
+"""
+
+# x = 2
+# y = 5
+# z = 6
+#
+# if abs(x - z) < abs(y - z):
+#     print(1)
+# elif abs(y - z) < abs(x - z):
+#     print(2)
+# else:
+#     print(0)
+#
+# print(1 if abs(x - z) < abs(y - z) else 2 if abs(y - z) < abs(x - z) else 0)
+
+
+"""
+https://leetcode.com/problems/restore-finishing-order/description/
+"""
+
+# order = [3,1,2,5,4]
+# friends = [1,3,4]
+#
+# result = []
+# for i in order:
+#     if i in friends:
+#         result.append(i)
+#
+# print(result)
+
+
+"""
+https://leetcode.com/problems/number-of-good-pairs/description/
+"""
+
+# nums = [1,2,3,1,1,3]
+# count = {}
+# res = 0
+# for i in nums:
+#     if i in count:
+#         res += count[i]
+#         count[i] += 1
+#     else:
+#         count[i] = 1
+#
+# print(res)
+
+
+
