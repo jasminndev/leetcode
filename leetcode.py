@@ -2116,4 +2116,21 @@ https://leetcode.com/problems/number-of-good-pairs/description/
 # print(res)
 
 
+"""
+https://leetcode.com/problems/compute-alternating-sum/description/
+"""
+
+
+# nums = [1,3,5,7]
+# result = 0
+# for i in range(len(nums)):
+#     if i % 2 == 0:
+#         result += nums[i]
+#     else:
+#         result -= nums[i]
+#
+# print(result)
+# print(sum(num if i % 2 == 0 else -num for i, num in enumerate(nums)))
+
+
 
