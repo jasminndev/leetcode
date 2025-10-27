@@ -2120,7 +2120,6 @@ https://leetcode.com/problems/number-of-good-pairs/description/
 https://leetcode.com/problems/compute-alternating-sum/description/
 """
 
-
 # nums = [1,3,5,7]
 # result = 0
 # for i in range(len(nums)):
@@ -2133,4 +2132,26 @@ https://leetcode.com/problems/compute-alternating-sum/description/
 # print(sum(num if i % 2 == 0 else -num for i, num in enumerate(nums)))
 
 
+"""
+https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/
+"""
 
+
+# def validStrings(self, n: int) -> str:
+#     res = []
+#
+#     def func(a, b, last_char):
+#         if a == n:
+#             res.append(b)
+#             return
+#         func(a + 1, b + '1', '1')
+#         if last_char != '0':
+#             func(a + 1, b + '0', '0')
+#
+#     func(0, '', '')
+#     return res
+
+
+"""
+
+"""
