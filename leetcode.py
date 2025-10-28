@@ -2153,5 +2153,19 @@ https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/des
 
 
 """
-
+https://leetcode.com/problems/permutation-difference-between-two-strings/description/
 """
+
+
+# s = "abc"
+# t = "bac"
+# t1 = {}
+# for i, char in enumerate(t):
+#     t1[char] = i
+# difference = 0
+# for i, char in enumerate(s):
+#     difference += abs(i - t1[char])
+# print(difference)
+
+
+
