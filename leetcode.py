@@ -2183,3 +2183,17 @@ https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-
 # print(res)
 
 
+"""
+https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/description/
+"""
+
+# seats = [3,1,5]
+# students = [2,7,4]
+# count = 0
+# seats.sort()
+# students.sort()
+# for s, t in zip(students, seats):
+#     count += abs(s - t)
+# print(count)
+
+
