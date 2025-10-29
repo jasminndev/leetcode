@@ -1,6 +1,7 @@
 """
 ✅ https://leetcode.com/problems/count-binary-substrings/description/
 """
+from collections import defaultdict
 
 # def count_binary(s:str) -> int:
 #
@@ -2156,7 +2157,6 @@ https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/des
 https://leetcode.com/problems/permutation-difference-between-two-strings/description/
 """
 
-
 # s = "abc"
 # t = "bac"
 # t1 = {}
@@ -2167,5 +2167,19 @@ https://leetcode.com/problems/permutation-difference-between-two-strings/descrip
 #     difference += abs(i - t1[char])
 # print(difference)
 
+
+"""
+https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/
+"""
+
+# groupSizes = [3,3,3,3,3,1,3]
+# res = []
+# cnt = defaultdict(list)
+# for person, size in (enumerate(groupSizes)):
+#     cnt[size].append(person)
+#     if len(cnt[size]) == size:
+#         res.append(cnt[size])
+#         cnt[size] = []
+# print(res)
 
 
