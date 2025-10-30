@@ -1,7 +1,6 @@
 """
 ✅ https://leetcode.com/problems/count-binary-substrings/description/
 """
-from collections import defaultdict
 
 # def count_binary(s:str) -> int:
 #
@@ -2137,7 +2136,6 @@ https://leetcode.com/problems/compute-alternating-sum/description/
 https://leetcode.com/problems/generate-binary-strings-without-adjacent-zeros/description/
 """
 
-
 # def validStrings(self, n: int) -> str:
 #     res = []
 #
@@ -2195,6 +2193,3 @@ https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/descripti
 # for s, t in zip(students, seats):
 #     count += abs(s - t)
 # print(count)
-
-
-
