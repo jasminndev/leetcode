@@ -2202,3 +2202,10 @@ https://leetcode.com/problems/split-a-string-in-balanced-strings/description/
 s = "RLRRLLRLRL"
 count = 0
 for i in range(len(s)):
+    if s[i] == "R" or s[i] == "L":
+        count += 1
+    else:
+        count = 0
+print(count)
+
+
