@@ -2193,3 +2193,15 @@ https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/descripti
 # for s, t in zip(students, seats):
 #     count += abs(s - t)
 # print(count)
+
+
+"""
+https://leetcode.com/problems/split-a-string-in-balanced-strings/description/
+"""
+
+s = "RLRRLLRLRL"
+count = 0
+for i in range(len(s)):
+
+
+
