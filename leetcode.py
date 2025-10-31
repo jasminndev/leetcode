@@ -2207,5 +2207,3 @@ for i in range(len(s)):
     else:
         count = 0
 print(count)
-
-
