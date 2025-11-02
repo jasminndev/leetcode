@@ -2199,11 +2199,23 @@ https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/descripti
 https://leetcode.com/problems/split-a-string-in-balanced-strings/description/
 """
 
-s = "RLRRLLRLRL"
-count = 0
-for i in range(len(s)):
-    if s[i] == "R" or s[i] == "L":
-        count += 1
-    else:
-        count = 0
-print(count)
+# s = "RLRRLLRLRL"
+# count = 0
+# for i in range(len(s)):
+#     if s[i] == "R" or s[i] == "L":
+#         count += 1
+#     else:
+#         count = 0
+# print(count)
+
+
+"""
+https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
+"""
+
+# head = [1,2,3,4]
+# mid = len(head)//2
+# del head[mid]
+# print(head)
+
+
