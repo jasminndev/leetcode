@@ -2201,25 +2201,27 @@ https://leetcode.com/problems/split-a-string-in-balanced-strings/description/
 
 # s = "RLRRLLRLRL"
 # count = 0
-# for i in range(len(s)):
-#     if s[i] == "R" or s[i] == "L":
-#         count += 1
+# balance = 0
+# for i in s:
+#     if i == 'L':
+#         balance += 1
 #     else:
-#         count = 0
+#         balance -= 1
+#
+#     if balance == 0:
+#         count += 1
 # print(count)
 
 
 """
-https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
+https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/
 """
 
-# head = [1,2,3,4]
-# mid = len(head)//2
-# del head[mid]
-# print(head)
+nums = [2,1,3,5,6]
+k = 5
+multiplier = 2
 
 
-"""
 
-"""
+
 
