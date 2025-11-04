@@ -2217,11 +2217,11 @@ https://leetcode.com/problems/split-a-string-in-balanced-strings/description/
 https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i/description/
 """
 
-nums = [2, 1, 3, 5, 6]
-k = 5
-multiplier = 2
-for _ in range(k):
-    idx = nums.index(min(nums))
-    nums[idx] *= multiplier
-
-print(nums)
+# nums = [2, 1, 3, 5, 6]
+# k = 5
+# multiplier = 2
+# for _ in range(k):
+#     idx = nums.index(min(nums))
+#     nums[idx] *= multiplier
+#
+# print(nums)
