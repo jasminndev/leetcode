@@ -2225,3 +2225,19 @@ https://leetcode.com/problems/final-array-state-after-k-multiplication-operation
 #     nums[idx] *= multiplier
 #
 # print(nums)
+
+
+"""
+https://leetcode.com/problems/find-center-of-star-graph/description/
+"""
+
+# edges = [[1, 2], [5, 1], [1, 3], [1, 4]]
+# u1, v1 = edges[0]
+# u2, v2 = edges[1]
+# if u1 == u2 or u1 == v2:
+#     print(u1)
+# else:
+#     print(v1)
+
+
+
