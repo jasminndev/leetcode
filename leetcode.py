@@ -2240,4 +2240,11 @@ https://leetcode.com/problems/find-center-of-star-graph/description/
 #     print(v1)
 
 
+"""
+https://leetcode.com/problems/reverse-prefix-of-word/description/
+"""
 
+# word = "abcdefd"
+# ch = "d"
+# index = word.find(ch)
+# print(word[:index + 1][::-1] + word[index + 1:])
