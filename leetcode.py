@@ -2248,3 +2248,16 @@ https://leetcode.com/problems/reverse-prefix-of-word/description/
 # ch = "d"
 # index = word.find(ch)
 # print(word[:index + 1][::-1] + word[index + 1:])
+
+
+"""
+https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/description/
+"""
+
+# n = 4421
+# pr1 = 1
+# pr2 = 0
+# for d in str(n):
+#     pr1 *= int(d)
+#     pr2 += int(d)
+# print(pr1 - pr2)
