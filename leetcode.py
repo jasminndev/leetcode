@@ -2261,3 +2261,4 @@ https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integ
 #     pr1 *= int(d)
 #     pr2 += int(d)
 # print(pr1 - pr2)
+
