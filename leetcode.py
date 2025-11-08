@@ -2262,3 +2262,10 @@ https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integ
 #     pr2 += int(d)
 # print(pr1 - pr2)
 
+
+"""
+https://leetcode.com/problems/count-of-matches-in-tournament/description/
+"""
+
+# n = 7
+# print(n - 1)
