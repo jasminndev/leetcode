@@ -2269,4 +2269,3 @@ https://leetcode.com/problems/count-of-matches-in-tournament/description/
 
 # n = 7
 # print(n - 1)
-
