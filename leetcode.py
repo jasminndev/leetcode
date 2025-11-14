@@ -2286,6 +2286,15 @@ https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/descrip
 # print(count)
 
 
+"""
+https://leetcode.com/problems/sum-multiples/description/
+"""
 
-
-
+# n = 7
+# lst = []
+# for i in range(1, n + 1):
+#     if i % 3 == 0 or i % 5 == 0 or i % 7 == 0:
+#         lst.append(i)
+#     else:
+#         pass
+# print(sum(lst))
