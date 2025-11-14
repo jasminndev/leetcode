@@ -2298,3 +2298,19 @@ https://leetcode.com/problems/sum-multiples/description/
 #     else:
 #         pass
 # print(sum(lst))
+
+
+"""
+https://leetcode.com/problems/minimum-number-game/description/
+"""
+
+# nums = [5, 4, 2, 3]
+# res = []
+# while nums != []:
+#     a = min(nums)
+#     nums.remove(a)
+#     b = min(nums)
+#     nums.remove(b)
+#     res.append(b)
+#     res.append(a)
+# print(res)
