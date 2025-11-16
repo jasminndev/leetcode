@@ -2315,3 +2315,14 @@ https://leetcode.com/problems/minimum-number-game/description/
 #     res.append(a)
 # print(res)
 
+
+"""
+https://leetcode.com/problems/sort-the-people/description/
+"""
+
+# names = ["Mary", "John", "Emma"]
+# heights = [180, 165, 170]
+# paired = list(zip(heights, names))
+# paired.sort(key=lambda x: x[0], reverse=True)
+# result = [name for (height, name) in paired]
+# print(result)
