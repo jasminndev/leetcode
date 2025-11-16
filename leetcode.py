@@ -2314,3 +2314,4 @@ https://leetcode.com/problems/minimum-number-game/description/
 #     res.append(b)
 #     res.append(a)
 # print(res)
+
