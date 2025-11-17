@@ -2326,3 +2326,20 @@ https://leetcode.com/problems/sort-the-people/description/
 # paired.sort(key=lambda x: x[0], reverse=True)
 # result = [name for (height, name) in paired]
 # print(result)
+
+
+"""
+https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/
+"""
+
+# num = 121
+# count = 0
+# x = num
+# while x > 0:
+#     digit = x % 10
+#     if digit != 0 and num % digit == 0:
+#         count += 1
+#     x //= 10
+# print(count)
+
+
