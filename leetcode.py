@@ -2341,3 +2341,12 @@ https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/
 #         count += 1
 #     x //= 10
 # print(count)
+
+
+"""
+https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/
+"""
+
+sentence = "thequickbrownfoxjumpsoverthelazydog"
+
+
