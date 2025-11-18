@@ -2347,6 +2347,7 @@ https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/
 https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/
 """
 
-sentence = "thequickbrownfoxjumpsoverthelazydog"
+# sentence = "thequickbrownfoxjumpsoverthelazydog"
+# print(len(set(sentence)) == 26)
 
 
