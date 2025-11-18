@@ -2351,3 +2351,14 @@ https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/
 # print(len(set(sentence)) == 26)
 
 
+"""
+https://leetcode.com/problems/sorting-the-sentence/description/
+"""
+
+# s = "is2 sentence4 This1 a3"
+# words = s.split()
+# result = [""] * len(words)
+# for w in words:
+#     pos = int(w[-1]) - 1
+#     result[pos] = w[:-1]
+# print(" ".join(result))
