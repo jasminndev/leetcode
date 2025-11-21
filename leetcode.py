@@ -2365,6 +2365,16 @@ https://leetcode.com/problems/sorting-the-sentence/description/
 
 
 """
+https://leetcode.com/problems/find-the-integer-added-to-array-i/description/
+"""
+
+# nums1 = [2, 6, 4]
+# nums2 = [9, 7, 5]
+# min1 = min(nums1)
+# min2 = min(nums2)
+# print(min2 - min1)
+
 
 """
 
+"""
