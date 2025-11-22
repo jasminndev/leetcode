@@ -2374,7 +2374,3 @@ https://leetcode.com/problems/find-the-integer-added-to-array-i/description/
 # min2 = min(nums2)
 # print(min2 - min1)
 
-
-"""
-
-"""
