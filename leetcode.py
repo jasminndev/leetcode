@@ -2374,18 +2374,3 @@ https://leetcode.com/problems/find-the-integer-added-to-array-i/description/
 # min2 = min(nums2)
 # print(min2 - min1)
 
-
-#################################################################################
-
-
-#
-# lst = [1, 4, 2, 6, 4, 6]
-#
-# left = 0
-# right = len(lst) - 1
-#
-# while left < right:
-#     print(lst[left], lst[right])
-#
-#     left += 1
-#     right -= 1
